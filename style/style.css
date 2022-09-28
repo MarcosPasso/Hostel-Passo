@@ -1,0 +1,147 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.navegacion img{
+    width: 12%;
+}
+
+.navegacion ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navegacion ul li{
+    list-style: none;
+}
+
+.navegacion ul li a{
+    text-decoration: none;
+    color: rgb(145 117 117);
+    font-weight: 700;
+    transition: 0.5s;
+    padding: 7px;
+}
+
+.navegacion ul li a:hover{
+    background: rgb(145 117 117);
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.foto-fondo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-fondo img{
+    width: 100%;
+    height: 100px;
+}
+
+.section1{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.section1 h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(145 117 117);
+}
+
+.section1 p{
+    font-size: 20px;
+
+}
+
+.fotos-hostel{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.fotos-hostel img{
+    width: 350px;
+    height: 500px;
+    border-radius: 7px;
+    transition: 0.7s;
+
+}
+
+.fotos-hostel img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.footer{
+    background: rgb(145 117 117);
+    padding: 60px;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+}
+
+.container-habitaciones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.habitaciones{
+   
+    text-align: center;
+}
+
+.habitaciones div img{
+    height: 500px;
+}
+
+.caja-imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.habitaciones div p{
+    padding: 20px;
+}
+
+.form-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.container-formulario{
+    position: relative;
+}
+
+.contenido-form{
+    position: absolute;
+    bottom: 300px; 
+    width: 100%; 
+    top: 25%;
+}
+
+
